@@ -1941,7 +1941,8 @@ body::after {
   right: 7px;
 }
 
-.slide-teachers__icon img {
+.slide-teachers__icon img,
+.slide-teachers__icon svg {
   height: 70px;
   -o-object-fit: cover;
      object-fit: cover;
