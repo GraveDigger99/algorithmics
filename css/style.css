@@ -2362,6 +2362,11 @@ body::after {
 .block-reviews__image_2gis img {
   height: 3.25rem;
   width: 10rem;
+  max-width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
 }
 
 .block-reviews__actions {
@@ -3468,9 +3473,14 @@ body::after {
     height: 1.375rem;
   }
 
-  .block-reviews__image img {
+  .block-reviews__image_yandex img {
     width: 7.5rem;
-    height: auto;
+    height: 2.9375rem;
+  }
+
+  .block-reviews__image_2gis img {
+    width: 7.5rem;
+    height: 2.5rem;
   }
 
   .reviews__items {
