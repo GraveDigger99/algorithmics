@@ -992,6 +992,15 @@ body::after {
   background-color: rgb(141, 48, 185);
 }
 
+.end-column__info img {
+  width: 4.75rem;
+  height: 3.4375rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
 .end-column__info span {
   font-weight: 500;
   line-height: 1.25;
@@ -2123,6 +2132,15 @@ body::after {
           align-items: center;
 }
 
+.slide-reviews__stars img {
+  width: 1.25rem;
+  height: 1.25rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
 .slide-reviews__name {
   color: #fff;
   font-size: 18px;
@@ -2331,13 +2349,19 @@ body::after {
   height: 1.6875rem;
 }
 
-.block-reviews__image img {
+.block-reviews__image_yandex img {
   width: 10rem;
   height: 3.875rem;
+  max-width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
   -o-object-position: center;
      object-position: center;
+}
+
+.block-reviews__image_2gis img {
+  height: 3.25rem;
+  width: 10rem;
 }
 
 .block-reviews__actions {
