@@ -1421,7 +1421,8 @@ body::after {
   max-height: 9.375rem;
 }
 
-.choose-course__image img {
+.choose-course__image img,
+.choose-course__image svg {
   position: relative;
   z-index: 2;
   max-width: 100%;
@@ -1432,7 +1433,8 @@ body::after {
      object-position: center;
 }
 
-.choose-course__card_yellow .choose-course__image img {
+.choose-course__card_yellow .choose-course__image img,
+.choose-course__card_yellow .choose-course__image svg {
   -webkit-transform: translate(26px, -7px);
       -ms-transform: translate(26px, -7px);
           transform: translate(26px, -7px);
@@ -1443,7 +1445,8 @@ body::after {
   background-color: rgb(243, 255, 105);
 }
 
-.choose-course__card_red .choose-course__image img {
+.choose-course__card_red .choose-course__image img,
+.choose-course__card_red .choose-course__image svg {
   -webkit-transform: translate(-20px, 0);
       -ms-transform: translate(-20px, 0);
           transform: translate(-20px, 0);
@@ -1454,7 +1457,8 @@ body::after {
   background-color: #ff3f61;
 }
 
-.choose-course__card_tomato .choose-course__image img {
+.choose-course__card_tomato .choose-course__image img,
+.choose-course__card_tomato .choose-course__image svg {
   -webkit-transform: translate(-60px, 0);
       -ms-transform: translate(-60px, 0);
           transform: translate(-60px, 0);
@@ -1465,7 +1469,8 @@ body::after {
   background-color: #f44c75;
 }
 
-.choose-course__card_blue .choose-course__image img {
+.choose-course__card_blue .choose-course__image img,
+.choose-course__card_blue .choose-course__image svg {
   -webkit-transform: translate(-45px, 0);
       -ms-transform: translate(-45px, 0);
           transform: translate(-45px, 0);
@@ -1480,7 +1485,8 @@ body::after {
   position: relative;
 }
 
-.choose-course__card_green .choose-course__image img {
+.choose-course__card_green .choose-course__image img,
+.choose-course__card_green .choose-course__image svg {
   -webkit-transform: translate(-70px, 0);
       -ms-transform: translate(-70px, 0);
           transform: translate(-70px, 0);
@@ -1491,7 +1497,8 @@ body::after {
   background-color: #00ffa3;
 }
 
-.choose-course__card_cornsilk .choose-course__image img {
+.choose-course__card_cornsilk .choose-course__image img,
+.choose-course__card_cornsilk .choose-course__image svg {
   -webkit-transform: translate(-50px, 0);
       -ms-transform: translate(-50px, 0);
           transform: translate(-50px, 0);
@@ -1502,7 +1509,8 @@ body::after {
   background-color: #fff7d9;
 }
 
-.choose-course__card_lime .choose-course__image img {
+.choose-course__card_lime .choose-course__image img,
+.choose-course__card_lime .choose-course__image svg {
   -webkit-transform: translate(7px, -4px);
       -ms-transform: translate(7px, -4px);
           transform: translate(7px, -4px);
@@ -1518,7 +1526,8 @@ body::after {
   background-color: rgb(141, 48, 185);
 }
 
-.choose-course__card_purple-pro .choose-course__image img {
+.choose-course__card_purple-pro .choose-course__image img,
+.choose-course__card_purple-pro .choose-course__image svg {
   -webkit-transform: translate(-6px, 0px);
       -ms-transform: translate(-6px, 0px);
           transform: translate(-6px, 0px);
@@ -1530,7 +1539,8 @@ body::after {
   background-color: rgb(141, 48, 185);
 }
 
-.choose-course__card_lightPurple .choose-course__image img {
+.choose-course__card_lightPurple .choose-course__image img,
+.choose-course__card_lightPurple .choose-course__image svg {
   -webkit-transform: translate(-6px, 10px);
       -ms-transform: translate(-6px, 10px);
           transform: translate(-6px, 10px);
@@ -1541,7 +1551,8 @@ body::after {
   background-color: #c6afed;
 }
 
-.choose-course__card_pink .choose-course__image img {
+.choose-course__card_pink .choose-course__image img,
+.choose-course__card_pink .choose-course__image svg {
   -webkit-transform: translate(-40px, 0);
       -ms-transform: translate(-40px, 0);
           transform: translate(-40px, 0);
@@ -2784,7 +2795,8 @@ body::after {
     margin-bottom: 1.875rem;
   }
 
-  .choose-course__card_purple .choose-course__image img {
+  .choose-course__card_purple .choose-course__image img,
+  .choose-course__card_purple .choose-course__image svg {
     -webkit-transform: scale(1.2) translate(-60px, 10px);
         -ms-transform: scale(1.2) translate(-60px, 10px);
             transform: scale(1.2) translate(-60px, 10px);
@@ -3990,12 +4002,14 @@ body::after {
     grid-template-columns: none;
   }
 
-  .choose-course__image img {
+  .choose-course__image img,
+  .choose-course__image svg {
     height: 6.5625rem;
     width: 10rem;
   }
 
-  .choose-course__card_red .choose-course__image img {
+  .choose-course__card_red .choose-course__image img,
+  .choose-course__card_red .choose-course__image svg {
     -webkit-transform: translate(5px, -10px);
         -ms-transform: translate(5px, -10px);
             transform: translate(5px, -10px);
@@ -4003,7 +4017,8 @@ body::after {
     height: 6.5625rem;
   }
 
-  .choose-course__card_tomato .choose-course__image img {
+  .choose-course__card_tomato .choose-course__image img,
+  .choose-course__card_tomato .choose-course__image svg {
     -webkit-transform: translate(-12px, -15px);
         -ms-transform: translate(-12px, -15px);
             transform: translate(-12px, -15px);
@@ -4011,7 +4026,8 @@ body::after {
     height: 7.4375rem;
   }
 
-  .choose-course__card_blue .choose-course__image img {
+  .choose-course__card_blue .choose-course__image img,
+  .choose-course__card_blue .choose-course__image svg {
     -webkit-transform: translate(-10px, -11px);
         -ms-transform: translate(-10px, -11px);
             transform: translate(-10px, -11px);
@@ -4019,7 +4035,8 @@ body::after {
     height: 6.5625rem;
   }
 
-  .choose-course__card_green .choose-course__image img {
+  .choose-course__card_green .choose-course__image img,
+  .choose-course__card_green .choose-course__image svg {
     -webkit-transform: translate(-43px, -20px);
         -ms-transform: translate(-43px, -20px);
             transform: translate(-43px, -20px);
@@ -4027,7 +4044,8 @@ body::after {
     height: 6.5625rem;
   }
 
-  .choose-course__card_cornsilk .choose-course__image img {
+  .choose-course__card_cornsilk .choose-course__image img,
+  .choose-course__card_cornsilk .choose-course__image svg {
     -webkit-transform: translate(-20px, -15px);
         -ms-transform: translate(-20px, -15px);
             transform: translate(-20px, -15px);
@@ -4035,7 +4053,8 @@ body::after {
     height: 6.5625rem;
   }
 
-  .choose-course__card_lime .choose-course__image img {
+  .choose-course__card_lime .choose-course__image img,
+  .choose-course__card_lime .choose-course__image svg {
     -webkit-transform: translate(7px, -9px);
         -ms-transform: translate(7px, -9px);
             transform: translate(7px, -9px);
@@ -4043,7 +4062,8 @@ body::after {
     height: 6.125rem;
   }
 
-  .choose-course__card_purple .choose-course__image img {
+  .choose-course__card_purple .choose-course__image img,
+  .choose-course__card_purple .choose-course__image svg {
     -webkit-transform: translate(-25px, -15px);
         -ms-transform: translate(-25px, -15px);
             transform: translate(-25px, -15px);
@@ -4051,7 +4071,8 @@ body::after {
     height: 8.3125rem;
   }
 
-  .choose-course__card_purple-pro .choose-course__image img {
+  .choose-course__card_purple-pro .choose-course__image img,
+  .choose-course__card_purple-pro .choose-course__image svg {
     -webkit-transform: translate(20px, 0px);
         -ms-transform: translate(20px, 0px);
             transform: translate(20px, 0px);
@@ -4059,7 +4080,8 @@ body::after {
     height: 5.3125rem;
   }
 
-  .choose-course__card_lightPurple .choose-course__image img {
+  .choose-course__card_lightPurple .choose-course__image img,
+  .choose-course__card_lightPurple .choose-course__image svg {
     -webkit-transform: translate(7px, -15px);
         -ms-transform: translate(7px, -15px);
             transform: translate(7px, -15px);
@@ -4067,7 +4089,8 @@ body::after {
     height: 6.5625rem;
   }
 
-  .choose-course__card_pink .choose-course__image img {
+  .choose-course__card_pink .choose-course__image img,
+  .choose-course__card_pink .choose-course__image svg {
     -webkit-transform: translate(-8px, -10px);
         -ms-transform: translate(-8px, -10px);
             transform: translate(-8px, -10px);
