@@ -5006,8 +5006,9 @@
         const script_showMore = document.querySelector(".block-reviews__button_showmore");
         if (script_showMore) {
             const spollersLength = document.querySelectorAll(".reviews__item ").length;
-            let items = 6;
+            let items = 8;
             script_showMore.addEventListener("click", (() => {
+                console.log("clicked");
                 items += 2;
                 const array = Array.from(document.querySelector(".reviews__items").children);
                 const visItems = array.slice(0, items);
