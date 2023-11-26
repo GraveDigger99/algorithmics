@@ -3330,7 +3330,8 @@ body::after {
     gap: 1.625rem;
   }
 
-  .advantages__icon img {
+  .advantages__icon img,
+  .advantages__icon svg {
     width: 4rem;
   }
 
