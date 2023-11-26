@@ -1250,6 +1250,12 @@ body::after {
   left: 50%;
 }
 
+.about-school__image_second svg {
+  -webkit-transform: translate(10px, 0);
+      -ms-transform: translate(10px, 0);
+          transform: translate(10px, 0);
+}
+
 .about-school__number {
   font-weight: 500;
   display: -webkit-box;
@@ -4083,15 +4089,31 @@ body::after {
   }
 
   .about-school__info-item {
-    padding: 0.625rem 1rem 0.75rem 1.25rem;
+    padding: 0.625rem 0.9375rem 0.75rem 0.9375rem;
   }
 
   .about-school__wrapper {
-    gap: 0.625rem;
+    gap: 0.4375rem;
   }
 
-  .about-school__image img {
+  .about-school__image img,
+  .about-school__image svg {
     width: 50px;
+  }
+
+  .about-school__image_first svg {
+    width: 3.625rem;
+    height: 2.9375rem;
+  }
+
+  .about-school__image_second svg {
+    width: 4.125rem;
+    height: 4.0625rem;
+  }
+
+  .about-school__image_third svg {
+    width: 3.25rem;
+    height: 2.75rem;
   }
 
   .about-school__number::after {
@@ -4604,6 +4626,24 @@ body::after {
 
   .faq {
     padding-bottom: 4.375rem;
+  }
+}
+
+@media (max-width: 23.375em) {
+  .about-school__info-item {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+
+  .about-school__wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 }
 
