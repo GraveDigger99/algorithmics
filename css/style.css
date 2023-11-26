@@ -1076,6 +1076,7 @@ body::after {
 .hero__avatars img {
   position: relative;
   width: 4.0625rem;
+  border-radius: 50%;
   height: 4.0625rem;
   -o-object-fit: cover;
      object-fit: cover;
@@ -1236,6 +1237,7 @@ body::after {
 }
 
 .about-school__info-item_first {
+  max-width: 14.4375rem;
   top: 10%;
   left: 27%;
 }
@@ -1243,11 +1245,13 @@ body::after {
 .about-school__info-item_second {
   top: -5%;
   right: 17%;
+  max-width: 18.75rem;
 }
 
 .about-school__info-item_third {
   top: 41%;
   left: 50%;
+  max-width: 14.5625rem;
 }
 
 .about-school__image_second svg {
@@ -1282,7 +1286,7 @@ body::after {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  gap: 1.875rem;
+  gap: 1.25rem;
   max-width: 60rem;
   margin: 0 auto;
 }
