@@ -1742,6 +1742,12 @@ body::after {
   background-color: #fff;
 }
 
+.prices__prev img,
+.prices__next img {
+  width: 1.125rem;
+  height: 1.875rem;
+}
+
 .slide-prices {
   text-align: center;
 }
@@ -1822,8 +1828,8 @@ body::after {
 
 .teachers__prev,
 .teachers__next {
-  width: 5rem;
   height: 5rem;
+  width: 5rem;
   border-radius: 50%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1835,6 +1841,12 @@ body::after {
       -ms-flex-align: center;
           align-items: center;
   background-color: #f8f8f8;
+}
+
+.teachers__prev img,
+.teachers__next img {
+  width: 1.125rem;
+  height: 1.875rem;
 }
 
 .teachers__slider:not(:last-child) {
@@ -2088,6 +2100,12 @@ body::after {
       -ms-flex-align: center;
           align-items: center;
   background-color: #fff;
+}
+
+.reviews__prev img,
+.reviews__next img {
+  width: 1.125rem;
+  height: 1.875rem;
 }
 
 .reviews__slider:not(:last-child) {
@@ -3146,6 +3164,11 @@ body::after {
             flex: 0 0 25rem;
   }
 
+  .about-school__map-desktop {
+    width: 71.1875rem;
+    height: 28.375rem;
+  }
+
   .choose-course__card_green .choose-course__image span {
     position: relative;
   }
@@ -3317,7 +3340,8 @@ body::after {
 
   .prices__prev img,
   .prices__next img {
-    width: 15px;
+    width: 0.9375rem;
+    height: 1.5625rem;
   }
 
   .teachers__prev,
@@ -3328,7 +3352,8 @@ body::after {
 
   .teachers__prev img,
   .teachers__next img {
-    width: 15px;
+    width: 0.9375rem;
+    height: 1.5625rem;
   }
 
   .slide-teachers {
@@ -3378,7 +3403,8 @@ body::after {
 
   .reviews__prev img,
   .reviews__next img {
-    width: 15px;
+    width: 0.9375rem;
+    height: 1.5625rem;
   }
 
   .signup {
