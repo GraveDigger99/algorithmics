@@ -5018,6 +5018,13 @@
                 if (visItems.length == spollersLength) script_showMore.style.display = "none";
             }));
         }
+        const spollersItems = document.querySelectorAll(".spollers__item");
+        if (spollersItems) {
+            const spollersBtns = document.querySelectorAll(".spollers__title");
+            for (const spollersBtn of spollersBtns) spollersBtn.addEventListener("click", (() => {
+                spollersBtn.parentNode.classList.toggle("spollers__item_active");
+            }));
+        }
         window["FLS"] = false;
         isWebp();
         addLoadedClass();

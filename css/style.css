@@ -359,8 +359,8 @@ body::after {
 
 .spollers__title {
   cursor: pointer;
-  -webkit-transition: background-color 0.5s ease-out 0s;
-  transition: background-color 0.5s ease-out 0s;
+  -webkit-transition: border 0.5s ease 0s;
+  transition: border 0.5s ease 0s;
   font-weight: 600;
   line-height: 1.5;
   border-radius: 1.25rem;
@@ -446,9 +446,14 @@ body::after {
   padding-bottom: 1.875rem;
   line-height: 2;
   font-weight: 700;
-  border: 0.0625rem solid rgb(141, 48, 185);
-  background: rgb(141, 48, 185);
+  -webkit-transition: background-color 0.5s ease-out 0s;
+  transition: background-color 0.5s ease-out 0s;
+  background-color: #fff;
   border-radius: 0 0 1.25rem 1.25rem;
+}
+
+.spollers__item_active .spollers__body {
+  background: rgb(141, 48, 185);
 }
 
 .tabs__navigation {
@@ -2302,6 +2307,11 @@ body::after {
   background: url("../img/reviews/line.svg") 0 0 no-repeat;
 }
 
+.readmore__button_reviews::after {
+  content: "";
+  display: none;
+}
+
 .block-reviews__label {
   text-align: center;
   font-weight: 600;
@@ -2470,6 +2480,8 @@ body::after {
 .item-reviews__from {
   font-weight: 500;
   text-decoration-line: underline;
+  -webkit-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s;
 }
 
 .item-reviews__date {
@@ -2661,6 +2673,8 @@ body::after {
 }
 
 .signup__link {
+  -webkit-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s;
   text-decoration-line: underline;
 }
 
@@ -4969,6 +4983,10 @@ body::after {
     background-color: rgba(55, 210, 89, 0.4862745098);
   }
 
+  .spollers__title:hover {
+    border: 1px solid rgb(141, 48, 185);
+  }
+
   .spollers__title:hover span {
     background-color: #fff;
     border: 1px solid rgb(141, 48, 185);
@@ -5067,6 +5085,12 @@ body::after {
 
   .readmore__button:hover {
     color: rgba(255, 255, 255, 0.585);
+    text-decoration: underline;
+  }
+
+  .readmore__button_reviews:hover {
+    color: rgb(141, 48, 185);
+    text-decoration: underline;
   }
 
   .block-reviews__button:hover {
@@ -5079,8 +5103,18 @@ body::after {
             box-shadow: rgba(141, 48, 185, 0.25) 0px 54px 55px, rgba(141, 48, 185, 0.12) 0px -12px 30px, rgba(141, 48, 185, 0.12) 0px 4px 6px, rgba(141, 48, 185, 0.17) 0px 12px 13px, rgba(141, 48, 185, 0.09) 0px -3px 5px;
   }
 
+  .item-reviews__from:hover {
+    color: rgb(141, 48, 185);
+    text-decoration: underline;
+  }
+
   .signup__button:hover {
     background-color: rgba(55, 210, 89, 0.4862745098);
+  }
+
+  .signup__link:hover {
+    color: #37d259;
+    text-decoration: underline;
   }
 }
 
