@@ -1792,7 +1792,10 @@ body::after {
   width: 1rem;
   height: 1rem;
   border-radius: 50%;
+  -webkit-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s;
   background-color: #F2E5FF;
+  border: 0.0625rem solid transparent;
 }
 
 .swiper-pagination-bullet-active {
@@ -5066,6 +5069,10 @@ body::after {
     color: #fff;
   }
 
+  .swiper-pagination-bullet:hover {
+    border: 0.0625rem solid rgb(141, 48, 185);
+  }
+
   .teachers__button:hover {
     background-color: rgb(141, 48, 185);
     color: #fff;
@@ -5083,9 +5090,12 @@ body::after {
             transform: scale(1.1);
   }
 
+  .readmore__button_underline:hover {
+    text-decoration: underline;
+  }
+
   .readmore__button:hover {
     color: rgba(255, 255, 255, 0.585);
-    text-decoration: underline;
   }
 
   .readmore__button_reviews:hover {
