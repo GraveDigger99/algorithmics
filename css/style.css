@@ -5163,6 +5163,7 @@ body::after {
 
   .readmore__button_underline:hover {
     text-decoration: underline;
+    color: inherit;
   }
 
   .readmore__button:hover {
